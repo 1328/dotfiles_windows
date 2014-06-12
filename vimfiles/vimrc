@@ -10,16 +10,20 @@ set nowrap
 set lines=40
 set columns=90
 
-set expandtab
 set textwidth=80
+
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+set expandtab
 set autoindent
 
 set shiftround
 
 set ruler
+set cursorline
+
+set showmatch
 
 filetype indent on
 filetype on
