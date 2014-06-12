@@ -36,5 +36,6 @@ elseif has("gui_running")
 endif
 
 map <S-Insert> "+gP
+map <silent> <F5> :!python %<CR>
 
 
