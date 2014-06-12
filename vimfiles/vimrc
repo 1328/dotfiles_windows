@@ -1,0 +1,40 @@
+set incsearch ignorecase hlsearch
+" Press space to clear search highlighting and any message already displayed.
+nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
+
+set nobackup
+set nowritebackup
+set noswapfile
+
+set nowrap
+set lines=40
+set columns=90
+
+set expandtab
+set textwidth=80
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set autoindent
+
+set shiftround
+
+set ruler
+
+filetype indent on
+filetype on
+filetype plugin on
+syntax on
+set nu
+
+colors twilight
+
+if has("gui_macvim")
+  set guifont=Menlo
+elseif has("gui_running")
+  set guifont=Consolas
+endif
+
+map <S-Insert> "+gP
+
+
